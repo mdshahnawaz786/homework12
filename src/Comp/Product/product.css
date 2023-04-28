@@ -1,0 +1,29 @@
+.product {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 5rem;
+    overflow: auto;
+    color: white;
+  }
+  
+  .productDetails{
+      height: 350px;
+      width: 300px;
+      display: flex;
+      padding: 1rem;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 0 0 10px black;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .productDetails img{
+      height: 60%;
+      width: 100%;
+  }
